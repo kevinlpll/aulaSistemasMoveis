@@ -1,3 +1,6 @@
+//Nome: Kevin Lopes Paschoal RA: 97685
+//Sexto semestre
+
 package com.uniso.lpdm.restaurango;
 
 import android.os.Bundle;
