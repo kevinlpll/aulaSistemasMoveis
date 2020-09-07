@@ -11,7 +11,7 @@
     android:layout_gravity="center"
     >
 
-
+<!--Componente da toolbar-->
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-
+<!--Botão que mostra o total de horas-->
         <Button
             android:id="@+id/btn_check_hours"
             android:layout_width="wrap_content"
@@ -39,6 +39,7 @@
             android:text="@string/btn_view_hours"
             android:onClick="onClickCheckHours"/>
 
+<!--        Textview vazia que será alterada pelo botão-->
         <TextView
             android:id="@+id/text_view_total_hours"
             android:layout_width="wrap_content"
