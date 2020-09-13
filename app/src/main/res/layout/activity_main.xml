@@ -11,22 +11,6 @@
     android:layout_gravity="center"
     >
 
-<!--Componente da toolbar-->
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        >
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorAccent"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
 <!--Botão que mostra o total de horas-->
         <Button
             android:id="@+id/btn_check_hours"
@@ -67,4 +51,16 @@
             android:text=""
             android:layout_gravity="center"
             android:layout_marginTop="10dp"/>
+<!--Botão que leva para a tela de escrever as coisa-->
+    <Button
+        android:id="@+id/btn_new_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_new_message"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickNewMessage"
+        android:padding="@dimen/btn_padding"
+        />
     </LinearLayout>

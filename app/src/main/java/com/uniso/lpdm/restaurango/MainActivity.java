@@ -3,6 +3,7 @@
 
 package com.uniso.lpdm.restaurango;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -22,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Cria a toolbar com o nome da aplicação em cima
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        Toolbar toolbar = findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
     }
 
     //Função que será chamada ao clicar no botão "check_hours"
@@ -37,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
     public void onClickRegisterOrder(View view){
         TextView order = findViewById(R.id.text_view_order);
         order.setText("Registrando pedido....");
+    }
+
+    public void onClickNewMessage(View view){
+        Intent intent = new Intent(this,NewMessageActivity.class);
+        startActivity(intent);
     }
 
 

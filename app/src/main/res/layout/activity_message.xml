@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewMessageActivity"
+
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+<!--Aqui vc escreve o que quiser-->
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_message"
+        android:inputType="text"
+        android:padding="@dimen/btn_padding"
+        />
+
+<!--Envia a mensagem via intent-->
+    <Button
+        android:id="@+id/btn_new_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/btn_padding"
+        android:onClick="onSendMessage"
+        android:text="@string/btn_register_order" />
+</LinearLayout>

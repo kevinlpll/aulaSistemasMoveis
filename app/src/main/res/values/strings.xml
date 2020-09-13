@@ -12,4 +12,6 @@
     <string name="btn_view_hours">Consultar total de horas</string>
     <string name="text_view_hours">Várias horas mesmo</string>
     <string name="text_register_order">Várias horas mesmo</string>
+    <string name="btn_new_message">Nova mensagem</string>
+    <string name="hint_message">Digite aqui o seu pedido!</string>
 </resources>
