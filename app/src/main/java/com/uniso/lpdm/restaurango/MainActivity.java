@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClickGerenciarExpediente(View view){
+        Intent intent = new Intent(this,TimerActivity.class);
+        startActivity(intent);
+    }
+
 
 
 }

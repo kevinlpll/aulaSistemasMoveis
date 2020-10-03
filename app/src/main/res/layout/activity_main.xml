@@ -63,4 +63,18 @@
         android:onClick="onClickNewMessage"
         android:padding="@dimen/btn_padding"
         />
-    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_gerenciar_expediente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_gerenciar_expediente"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickGerenciarExpediente"
+        android:padding="@dimen/btn_padding"
+        />
+
+
+</LinearLayout>

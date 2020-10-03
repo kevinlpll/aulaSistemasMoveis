@@ -14,4 +14,7 @@
     <string name="text_register_order">Várias horas mesmo</string>
     <string name="btn_new_message">Nova mensagem</string>
     <string name="hint_message">Digite aqui o seu pedido!</string>
+    <string name="btn_gerenciar_expediente">Gerenciar expediente</string>
+    <string name="btn_iniciar_pausar">Iniciar/Pausar</string>
+    <string name="btn_parar">Parar</string>
 </resources>
